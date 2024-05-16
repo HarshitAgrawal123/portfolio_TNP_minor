@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Angkor&family=Berkshire+Swash&family=Madimi+One&family=Rammetto+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Angkor&family=Berkshire+Swash&family=Madimi+One&family=Rammetto+One&family=Tenor+Sans&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #CDF5FD;
+}
+a{
+    text-decoration: none;
+}
+.sidebar{
+    background-color: #00A9FF;
+  width: 200px;
+  font-family: "Tenor Sans", sans-serif;
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  top: 0;
+  
+}
+.sidebar nav{
+    padding: 45px;
+}
+.sidebar nav li{
+ list-style: none;
+ font-size: 25px;
+ padding: 33px 0;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: white;
+}
+.container{
+    margin-left: 200px;
+    font-family: "Tenor Sans", sans-serif;
+}
+.harshit{
+    width: 90vw;
+}
+.home{
+    display: flex;
+    font-family: "Rammetto One", sans-serif;
+}
+.info{
+    height: 70vh;
+    width: 80vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.divinfo{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column;
+}
+.hello{
+    font-size: 55px;
+    text-transform: uppercase;
+}
+.name{
+    font-size: 70px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.about{
+    font-size: 50px;
+    margin-bottom: 34px;
+}
+
+.buttons a{
+padding: 9px 14px;
+border-radius: 22px;
+color: white;
+background-color: #00A9FF;
+font-weight: bold;
+font-size: 25px;
+margin: 0 3px;
+cursor: pointer;
+font-family: "Tenor Sans", sans-serif;
+text-decoration: none;
+}
+
+.buttons a:hover{
+background-color: #A0E9FF;
+color: #00A9FF;
+}
+.ha{
+    text-align: center;
+    font-size: 60px;
+    font-family: "Permanent Marker", cursive;
+    font-weight:bold;
+}
+.divpic img{
+width: 300px;
+}
+.about_content{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 50px;
+    padding: 0 100px;
+}
+.aboutme{
+    font-size: 30px;
+}
+#skill{
+    padding: 40px;
+    margin: auto;
+    text-align: center;
+}
+
+.skill_content{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding: 40px;
+}
+
+#skill .card{
+    border: 1px solid black;
+    padding: 10px;
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+}
+
+i{
+    font-size: 80px;
+    color: black;
+}
+
+#projects{
+    padding: 40px;
+}
+
+#projects .image img{
+    width: 300px;
+}
+
+#projects .image{
+    margin: auto;
+}
+
+.project_card{
+    box-shadow: 1px 1px 1px 1px rgba(128, 128, 128, 0.6);
+    width: 300px;
+    padding: 10px;
+    background-color: white;
+}
+
+.project_content{
+    padding: 50px;
+    display: flex;
+    align-self: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 30px;
+    font-size: 18px;
+    line-height: 1.5rem;
+}
+
+.project_des{
+    padding: 10px;
+}
+
+button{
+    margin-top: 10px;
+    border: none;
+    outline: none;
+    padding: 10px 15px;
+    margin-right: 10px;
+    background-color:#00A9FF;
+    font-size: 18px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-family: "Tenor Sans", sans-serif;
+    color: white;
+}
+button:hover{
+    background-color: #A0E9FF;
+color: #00A9FF;
+}
+
+.contact_content{
+    text-align: center;
+    padding: 20px;
+    font-size: 18px;
+    line-height: 1.5rem;
+}
+
+footer{
+    text-align: center;
+    padding: 30px;
+    line-height: 1.5rem;
+}
+
+.links a i{
+    font-size: 40px;
+}
+.links
+{
+    margin-top: 20px;
+}
